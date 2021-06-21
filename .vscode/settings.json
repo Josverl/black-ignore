@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--verbose",
+        "--force-exclude",
+        "\"(foo\\.py|ignore/|donotformat/)\""
+    ]
+}
